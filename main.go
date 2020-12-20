@@ -9,7 +9,7 @@ var stop bool
 
 func HomeRouterHandler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Add("Content-Type", "text/html; charset=utf-8")
-	fmt.Fprintf(w, "Сказочные Олени, Всем привет!")
+	fmt.Fprintf(w, "Сказочные Олени, Вам большой привет!")
 	stop = true
 }
 func main(){
